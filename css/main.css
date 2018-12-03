@@ -104,10 +104,50 @@ textarea {
    }
 
    body {
+     font-family: serif, courier;
+     line-height: 1.4;
+     background-color: white;
    }
 
+   img {
+     max-width: 100%;
+     display: block;
+   }
 
+   .main-nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #fff;
+       position: fixed;
+       top: 0%;
+       width: 100%;
+       left: 40%;
+   }
 
+   li {
+       float: left;
+   }
+
+   li a {
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+
+   /* Change the link color to #111 (black) on hover */
+   li a:hover {
+       background-color: #111;
+   }
+
+   .main-section, .section2, .section3, .section4, .section5 {
+     background-image: url(../img/Asset 6.png);
+     background-repeat: repeat-x;
+     margin-top: 7em;
+   }
 
 
 
