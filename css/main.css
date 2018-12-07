@@ -106,7 +106,10 @@ textarea {
    body {
      font-family: courier, serif;
      line-height: 1.4;
-     background-color: white;
+     background-image: url(../img/asset6.png);
+     background-repeat: repeat-x;
+     background-size: 8%;
+     z-index: 10;
    }
 
    img {
@@ -114,26 +117,37 @@ textarea {
      display: block;
    }
 
-   .main-nav ul, .footer-nav ul {
+   .main-nav ul, .footer-nav ul, .social-nav ul {
        list-style-type: none;
        margin: .5em;
        padding: 0;
        overflow: hidden;
        position: fixed;
        width: 100%;
-       left: 38%;
+
    }
+
    .main-nav ul {
      top: 0%;
+     background-color: #fff;
    }
 
    .footer-nav ul {
      top: 90%;
+     left: 0%;
+     background-color: #fff;
    }
+
+   .social-nav ul {
+     top: 0%;
+     left: 88%;
+   }
+
 
    li {
        float: left;
    }
+
 
    li a {
        display: block;
@@ -143,25 +157,13 @@ textarea {
        text-decoration: none;
    }
 
-   /* Change the link color to #111 (black) on hover */
-   li a:hover {
-       border-bottom: 6px solid #305535;
+   .social-nav li a {
+     padding: 2em 1em 0 0;
    }
 
-   aside {
-    clear: right;
-    display: inline-block;
-    height: 1.2%;
-    width: 1.2%;
-    float: right;
-    position: absolute;
-    top: 6%;
-    right: 10%;
-  }
-
-   .main-section, .section2, .section3, .section4, .section5 {
-     background-image: url(../img/asset6.png);
-     background-repeat: repeat-x;
+   /* Change the link color to #111 (black) on hover */
+   .main-nav li a:hover {
+       border-bottom: 6px solid #305535;
    }
 
    .button1, .button2 {
@@ -172,10 +174,25 @@ textarea {
 
    }
 
+   .button1 {
+     left: 0%;
+   }
+
    .button2 {
      right: 0%;
    }
 
+   .main-section, .section2, .section3, .section4, .section5 {
+     margin: 6em 5.5em -5em 5.5em;
+   }
+
+   .main-section {
+     background-color: hsla(124, 18%, 80%, 0.17);
+   }
+
+   .section2 {
+     background-color: hsla(360, 19%, 77%, 0.13);
+   }
 
 
 
