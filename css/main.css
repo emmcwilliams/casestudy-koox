@@ -107,9 +107,9 @@ textarea {
      font-family: 'Belgrano', serif;
      line-height: 1.4;
      background: url(../img/asset6.png) repeat-x fixed #f2f2f2;
-     background-size: 7.9%;
+     background-size: 8.7%;
      border: 5.9em solid white;
-    color: #305535;
+     color: #305535;
    }
 
    img {
@@ -129,6 +129,7 @@ textarea {
        position: fixed;
        width: 100%;
        margin-top: 0;
+       z-index: 1;
    }
 
    .main-nav ul {
@@ -149,15 +150,26 @@ textarea {
    }
 
    .icon-list {
-     border: 1px solid red;
-     bottom: 10%;
-     left: 40%
+     bottom: 2%;
+     left: 50%;
+     z-index: 9;
+     position: fixed;
    }
+
+   .arrow i {
+     font-size: 1.5em;
+     padding-top: .5em;
+     margin-left: -.2em;
+   }
+
+   .diamond img {
+     width: 25%;
+     height: 20%;
+    }
 
    li {
        float: left;
-   }
-
+     }
 
    li a {
        display: block;
@@ -180,24 +192,27 @@ textarea {
      text-align: center;
    }
 
-   h1 {
-     position: absolute;
-     top: 30%;
-     left: 30%;
+    .section1-content h1 {
      text-align: center;
      font-weight: lighter;
      line-height: 1em;
+     position: absolute;
+     top: 30%;
+     left: 30%;
    }
+
    .scroll {
      position: fixed;
      bottom: 13%;
-     left: 45%
+     left: 46%;
+     z-index: 3;
    }
    .button1, .button2 {
      position: fixed;
      top: 45%;
      height: 12.5%;
      width: 10.5%;
+     z-index: 4;
    }
 
    .button1 {
@@ -208,9 +223,9 @@ textarea {
      right: 0%;
    }
 
-
    .section1 {
-     margin: -4em 0 0 0;
+     margin: -2em 0 0 0;
+     padding-bottom: 3em;
      border: 1px solid white;
    }
 
@@ -218,6 +233,21 @@ textarea {
      border: 1px solid white;
    }
 
+    .section1 img {
+    width: 100%;
+    height: 100%;
+    }
+
+   .section1 img, .section3 img, .section4 img, .section5 img {
+     z-index: 2;
+     position: relative;
+   }
+
+   .section2 img {
+     z-index: 0;
+     position: relative;
+
+   }
    .section1 {
      background-color: hsla(151, 35%, 95%, 0.60);
    }
@@ -236,7 +266,6 @@ textarea {
    .section5 {
     background-color: hsla(151, 35%, 95%, 0.60);
    }
-
 
 
 
