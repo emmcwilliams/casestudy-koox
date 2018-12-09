@@ -104,7 +104,7 @@ textarea {
    }
 
    body {
-     font-family: courier, serif;
+     font-family: 'Belgrano', serif;
      line-height: 1.4;
      background: url(../img/asset6.png) repeat-x fixed #f2f2f2;
      background-size: 7.9%;
@@ -118,22 +118,23 @@ textarea {
    }
 
    h1 {
-     color: #305535
+     color: #305535;
+     font-size: 5em;
    }
 
 
    .main-nav ul, .footer-nav ul, .social-nav ul {
        list-style-type: none;
-       margin: 0;
-       padding: 0;
        overflow: hidden;
        position: fixed;
        width: 100%;
+       margin-top: 0;
    }
 
    .main-nav ul {
      top: 0%;
      background-color: #fff;
+     padding-left: 30%;
    }
 
    .footer-nav ul {
@@ -175,7 +176,7 @@ textarea {
        border-bottom: 6px solid #305535;
    }
 
-   .main-nav, .main-nav ul {
+    .main-mav li {
      text-align: center;
    }
 
@@ -183,7 +184,6 @@ textarea {
      position: absolute;
      top: 30%;
      left: 30%;
-     font-size: 5em;
      text-align: center;
      font-weight: lighter;
      line-height: 1em;
