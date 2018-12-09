@@ -104,7 +104,7 @@ textarea {
    }
 
    body {
-     font-family: 'Belgrano', serif;
+     font-family: courier, 'Belgrano', serif;
      line-height: 1.4;
      background: url(../img/asset6.png) repeat-x fixed #f2f2f2;
      background-size: 8.7%;
@@ -120,6 +120,7 @@ textarea {
    h1 {
      color: #305535;
      font-size: 5em;
+     font-weight: lighter;
    }
 
 
@@ -142,6 +143,7 @@ textarea {
      top: 90%;
      left: 0%;
      background-color: #fff;
+     padding-bottom: 2em;
    }
 
    .social-nav ul {
@@ -194,7 +196,6 @@ textarea {
 
     .section1-content h1 {
      text-align: center;
-     font-weight: lighter;
      line-height: 1em;
      position: absolute;
      top: 30%;
@@ -210,7 +211,7 @@ textarea {
    .button1, .button2 {
      position: fixed;
      top: 45%;
-     height: 12.5%;
+     height: 10.5%;
      width: 10.5%;
      z-index: 4;
    }
@@ -233,17 +234,17 @@ textarea {
      border: 1px solid white;
    }
 
-    .section1 img {
-    width: 100%;
+  .section1 img {
     height: 100%;
-    }
+    width: 100%;
+  }
 
-   .section1 img, .section3 img, .section4 img, .section5 img {
+   .section1 img, .section3 img, .section4 img {
      z-index: 2;
      position: relative;
    }
 
-   .section2 img {
+   .section2 img, .section5 img {
      z-index: 0;
      position: relative;
 
