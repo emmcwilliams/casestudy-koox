@@ -104,7 +104,7 @@ textarea {
    }
 
    body {
-     font-family: 'Belgrano', courier, serif;
+     font-family: "source code pro", 'Belgrano', courier, serif;
      line-height: 1.4;
      background: url(../img/asset6.png) repeat-x fixed #f2f2f2;
      background-size: 8.7%;
@@ -119,19 +119,20 @@ textarea {
 
    h2, h3 {
      text-align: center;
-     font-weight: lighter;
    }
    h1 {
      font-size: 5em;
-     font-weight: lighter;
+     font-weight: normal;
    }
 
    h2 {
      font-size: 1.1em;
+     font-weight: normal;
    }
 
    h3 {
      font-size: 3.5em;
+     font-weight: normal;
    }
    h4 {
      font-size: 15em;
