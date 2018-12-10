@@ -103,6 +103,7 @@ textarea {
      box-sizing: inherit;
    }
 
+/*Basic main set-up*/
    body {
      font-family: "source code pro", 'Belgrano', courier, serif;
      line-height: 1.4;
@@ -140,6 +141,7 @@ textarea {
      letter-spacing: .1em;
    }
 
+/*Navigation bar set-up*/
    .main-nav ul, .footer-nav ul, .social-nav ul {
        list-style-type: none;
        overflow: hidden;
@@ -170,24 +172,6 @@ textarea {
      left: 88%;
    }
 
-   .icon-list {
-     bottom: 2%;
-     left: 49%;
-     z-index: 9;
-     position: fixed;
-   }
-
-   .arrow i {
-     font-size: 1.5em;
-     padding-top: .5em;
-     margin-left: -.2em;
-   }
-
-   .diamond img {
-     width: 25%;
-     height: 20%;
-    }
-
    li {
        float: left;
      }
@@ -217,13 +201,24 @@ textarea {
      text-align: center;
    }
 
-    .section1-content h1 {
-     text-align: center;
-     line-height: 1em;
-     position: absolute;
-     top: 30%;
-     left: 30%;
+   /*icon & shape set-up for fixed elements*/
+   .icon-list {
+     bottom: 2%;
+     left: 49%;
+     z-index: 9;
+     position: fixed;
    }
+
+   .arrow i {
+     font-size: 1.5em;
+     padding-top: .5em;
+     margin-left: -.2em;
+   }
+
+   .diamond img {
+     width: 25%;
+     height: 20%;
+    }
 
    .scroll {
      font-size: .8em;
@@ -247,6 +242,15 @@ textarea {
    .button2 {
      right: 0%;
    }
+
+/*Section set-up for layered background images, background color & text */
+     .section1-content h1 {
+      text-align: center;
+      line-height: 1em;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      }
 
 
    .section1 {
@@ -286,10 +290,15 @@ textarea {
    .section3 img, .section4 img {
      width: 60%;
    }
+
+   /*added diamonds to bottom of text in sections*/
    .di-shape, .section3-text img, .section4-text img {
      width: 3%;
    }
-   .section1 {
+
+
+   /*background colors*/
+   .section1, .section5 {
      background-color: hsla(151, 35%, 95%, 0.60);
    }
 
@@ -297,15 +306,12 @@ textarea {
      background-color: hsla(360, 19%, 95%, 0.80);
    }
 
-   .section3 {
+   .section3, .section4 {
      background-color: hsla(360, 19%, 95%, 0.70);
    }
 
-   .section4 {
-     background-color: hsla(360, 19%, 95%, 0.70);
-   }
+   /*section5 setup*/
    .section5 {
-    background-color: hsla(151, 35%, 95%, 0.60);
     padding-bottom: 2em;
     position: relative;
    }
@@ -332,6 +338,7 @@ textarea {
      transform: translate(-70%, -50%);
    }
 
+  /*fixed lonesome contact word @ bottom R of page*/
     .contact {
       position: fixed;
       top: 92%;
