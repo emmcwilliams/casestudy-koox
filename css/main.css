@@ -141,6 +141,7 @@ textarea {
      letter-spacing: .1em;
    }
 
+
 /*Navigation bar set-up*/
    .main-nav ul, .footer-nav ul, .social-nav ul {
        list-style-type: none;
@@ -201,6 +202,7 @@ textarea {
      text-align: center;
    }
 
+
    /*icon & shape set-up for fixed elements*/
    .icon-list {
      bottom: 2%;
@@ -242,6 +244,7 @@ textarea {
    .button2 {
      right: 0%;
    }
+
 
 /*Section set-up for layered background images, background color & text */
      .section1-content h1 {
@@ -291,7 +294,9 @@ textarea {
      width: 60%;
    }
 
+
    /*added diamonds to bottom of text in sections*/
+
    .di-shape, .section3-text img, .section4-text img {
      width: 3%;
    }
@@ -309,6 +314,7 @@ textarea {
    .section3, .section4 {
      background-color: hsla(360, 19%, 95%, 0.70);
    }
+
 
    /*section5 setup*/
    .section5 {
@@ -337,6 +343,7 @@ textarea {
      left: 50%;
      transform: translate(-70%, -50%);
    }
+
 
   /*fixed lonesome contact word @ bottom R of page*/
     .contact {
