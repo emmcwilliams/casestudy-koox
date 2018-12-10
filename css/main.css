@@ -104,7 +104,7 @@ textarea {
    }
 
    body {
-     font-family: courier, 'Belgrano', serif;
+     font-family: 'Belgrano', courier, serif;
      line-height: 1.4;
      background: url(../img/asset6.png) repeat-x fixed #f2f2f2;
      background-size: 8.7%;
@@ -159,6 +159,9 @@ textarea {
      left: 1.5%;
      background-color: #fff;
      padding-bottom: 2em;
+     padding-left: .5em;
+     color: #6a6a6a;
+     list-style-type: disc;
    }
 
    .social-nav ul {
@@ -168,7 +171,7 @@ textarea {
 
    .icon-list {
      bottom: 2%;
-     left: 50%;
+     left: 49%;
      z-index: 9;
      position: fixed;
    }
@@ -196,6 +199,11 @@ textarea {
        text-decoration: none;
    }
 
+   .footer-nav li {
+     word-spacing: .5em;
+     padding: 0;
+     margin: 0;
+   }
    .social-nav li a {
      padding: 2em 1em 0 0;
    }
@@ -217,9 +225,10 @@ textarea {
    }
 
    .scroll {
+     font-size: .8em;
      position: fixed;
      bottom: 13%;
-     left: 46%;
+     left: 45%;
      z-index: 3;
    }
    .button1, .button2 {
@@ -238,6 +247,7 @@ textarea {
      right: 0%;
    }
 
+
    .section1 {
      margin: -2em 0 0 0;
      padding-bottom: 3em;
@@ -248,22 +258,20 @@ textarea {
    .section2 img, .section2-text {
         vertical-align: middle;
         display: inline-block;
+        text-align: center;
       }
 
     .section3 img, .section3-text {
       vertical-align: middle;
       display: inline-block;
+      text-align: center;
       }
 
     .section4 img, .section4-text {
       vertical-align: middle;
       display: inline-block;
+      text-align: center;
       }
-
-    .section4-text {
-      vertical-align: middle;
-    }
-
 
    .section1 img, .section3 img, .section4 img {
      z-index: 2;
@@ -277,35 +285,58 @@ textarea {
    .section3 img, .section4 img {
      width: 60%;
    }
-
-
+   .di-shape, .section3-text img, .section4-text img {
+     width: 3%;
+   }
    .section1 {
      background-color: hsla(151, 35%, 95%, 0.60);
    }
 
    .section2 {
-     background-color: hsla(360, 19%, 95%, 0.60);
+     background-color: hsla(360, 19%, 95%, 0.80);
    }
 
    .section3 {
-     background-color: hsla(360, 19%, 95%, 0.60);
+     background-color: hsla(360, 19%, 95%, 0.70);
    }
 
    .section4 {
-     background-color: hsla(360, 19%, 95%, 0.60);
+     background-color: hsla(360, 19%, 95%, 0.70);
    }
    .section5 {
     background-color: hsla(151, 35%, 95%, 0.60);
     padding-bottom: 2em;
+    position: relative;
    }
 
+   .section5-text, .section5-text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
 
+   .section5-text p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+   }
+
+   .section5-text img {
+     width: 15%;
+     position: absolute;
+     top: 68%;
+     left: 50%;
+     transform: translate(-70%, -50%);
+   }
 
     .contact {
       position: fixed;
       top: 92%;
       right: 6%;
       z-index: 4;
+      color: #6a6a6a;
     }
 
 
